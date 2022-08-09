@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87C2946728A24DCA00DCBA61 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2946628A24DCA00DCBA61 /* Memo.swift */; };
 		87D803B528A24AD600F04A4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D803B428A24AD600F04A4F /* AppDelegate.swift */; };
 		87D803B728A24AD600F04A4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D803B628A24AD600F04A4F /* SceneDelegate.swift */; };
 		87D803B928A24AD600F04A4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D803B828A24AD600F04A4F /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		87C2946628A24DCA00DCBA61 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		87D803B128A24AD600F04A4F /* NewMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D803B428A24AD600F04A4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87D803B628A24AD600F04A4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87C2946528A24DBD00DCBA61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				87C2946628A24DCA00DCBA61 /* Memo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		87D803A828A24AD600F04A4F = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		87D803B328A24AD600F04A4F /* NewMemo */ = {
 			isa = PBXGroup;
 			children = (
+				87C2946528A24DBD00DCBA61 /* Model */,
 				87D803B428A24AD600F04A4F /* AppDelegate.swift */,
 				87D803B628A24AD600F04A4F /* SceneDelegate.swift */,
 				87D803B828A24AD600F04A4F /* ViewController.swift */,
@@ -145,6 +156,7 @@
 				87D803B928A24AD600F04A4F /* ViewController.swift in Sources */,
 				87D803B528A24AD600F04A4F /* AppDelegate.swift in Sources */,
 				87D803B728A24AD600F04A4F /* SceneDelegate.swift in Sources */,
+				87C2946728A24DCA00DCBA61 /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
