@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8711671F28A34C6C000136FA /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8711671E28A34C6C000136FA /* MemoListTableViewController.swift */; };
+		871F03F228A4B732005EDAD7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871F03F128A4B732005EDAD7 /* DetailViewController.swift */; };
 		87A9572728A494BD00CBB6A1 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A9572628A494BD00CBB6A1 /* ComposeViewController.swift */; };
 		87A9572928A498C200CBB6A1 /* UIVIewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A9572828A498C200CBB6A1 /* UIVIewController+Alert.swift */; };
 		87C2946728A24DCA00DCBA61 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2946628A24DCA00DCBA61 /* Memo.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		8711671E28A34C6C000136FA /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
+		871F03F128A4B732005EDAD7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		87A9572628A494BD00CBB6A1 /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		87A9572828A498C200CBB6A1 /* UIVIewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIewController+Alert.swift"; sourceTree = "<group>"; };
 		87C2946628A24DCA00DCBA61 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				8711671E28A34C6C000136FA /* MemoListTableViewController.swift */,
 				87A9572628A494BD00CBB6A1 /* ComposeViewController.swift */,
 				87A9572828A498C200CBB6A1 /* UIVIewController+Alert.swift */,
+				871F03F128A4B732005EDAD7 /* DetailViewController.swift */,
 				87D803BA28A24AD600F04A4F /* Main.storyboard */,
 				87D803C028A24AD700F04A4F /* Assets.xcassets */,
 				87D803C228A24AD700F04A4F /* LaunchScreen.storyboard */,
@@ -161,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				871F03F228A4B732005EDAD7 /* DetailViewController.swift in Sources */,
 				87D803BF28A24AD600F04A4F /* NewMemo.xcdatamodeld in Sources */,
 				87D803B928A24AD600F04A4F /* ViewController.swift in Sources */,
 				87D803B528A24AD600F04A4F /* AppDelegate.swift in Sources */,
