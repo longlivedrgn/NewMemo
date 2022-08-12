@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8711671F28A34C6C000136FA /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8711671E28A34C6C000136FA /* MemoListTableViewController.swift */; };
 		871F03F228A4B732005EDAD7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871F03F128A4B732005EDAD7 /* DetailViewController.swift */; };
+		8731261228A5FA8600559882 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8731261128A5FA8600559882 /* DataManager.swift */; };
 		87A9572728A494BD00CBB6A1 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A9572628A494BD00CBB6A1 /* ComposeViewController.swift */; };
 		87A9572928A498C200CBB6A1 /* UIVIewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A9572828A498C200CBB6A1 /* UIVIewController+Alert.swift */; };
 		87C2946728A24DCA00DCBA61 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2946628A24DCA00DCBA61 /* Memo.swift */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		8711671E28A34C6C000136FA /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 		871F03F128A4B732005EDAD7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8731261128A5FA8600559882 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		87A9572628A494BD00CBB6A1 /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		87A9572828A498C200CBB6A1 /* UIVIewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIewController+Alert.swift"; sourceTree = "<group>"; };
 		87C2946628A24DCA00DCBA61 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
@@ -49,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8731261028A5FA7700559882 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8731261128A5FA8600559882 /* DataManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		87C2946528A24DBD00DCBA61 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +86,7 @@
 		87D803B328A24AD600F04A4F /* NewMemo */ = {
 			isa = PBXGroup;
 			children = (
+				8731261028A5FA7700559882 /* Data */,
 				87C2946528A24DBD00DCBA61 /* Model */,
 				87D803B428A24AD600F04A4F /* AppDelegate.swift */,
 				87D803B628A24AD600F04A4F /* SceneDelegate.swift */,
@@ -165,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				871F03F228A4B732005EDAD7 /* DetailViewController.swift in Sources */,
+				8731261228A5FA8600559882 /* DataManager.swift in Sources */,
 				87D803BF28A24AD600F04A4F /* NewMemo.xcdatamodeld in Sources */,
 				87D803B928A24AD600F04A4F /* ViewController.swift in Sources */,
 				87D803B528A24AD600F04A4F /* AppDelegate.swift in Sources */,
